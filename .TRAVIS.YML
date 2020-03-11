@@ -1,0 +1,7 @@
+language: python
+python:
+    - "3.6"
+# install dependencies
+install:
+    - pip install pygame
+script: pytest
